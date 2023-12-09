@@ -1,0 +1,286 @@
+
+.mainContainer{
+    margin-left: 8vw;
+}
+
+.AllCards {
+    display: flex;
+}
+
+.allCards2 {
+    display: flex;
+}
+
+.AllCardsContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.alwaysP {
+    /* width: 586px; */
+    width: 40vw;
+    color: #000;
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4vw;
+    letter-spacing: 0.2vw;
+}
+
+
+.ourS {
+    margin-left: 0vw;
+    font-size: 2.5vw;
+    font-style: normal;
+    line-height: 2.5vw;
+    letter-spacing: 0.2vw;
+}
+
+.Box {
+    border-radius: 2vw;
+    margin-left: 0.5vw;
+    width: 20vw;
+    height: 20vw;
+    background: #F4F6FB;
+    box-shadow: 0px 4px 90px 0px rgba(0, 0, 0, 0.15);
+    flex-shrink: 0;
+}
+
+.Box2 {
+    border-radius: 2vw;
+
+    margin-left: 0.5vw;
+    width: 19.7vw;
+    height: 20vw;
+    background: #c5c5c5;
+    flex-shrink: 0;
+}
+
+
+.AllContent {
+    margin-top: 3vw;
+}
+
+.mainHeading{
+    display: flex;
+}
+
+.HomeIcon {
+    margin-left: 6vw;
+    margin-top: 1.4vw;
+}
+.iconSize{
+    font-size: 5vw;       
+}
+
+
+.iconHeading {
+    padding-top: 2vw;
+    padding-left: 2.9vw;
+    color: #343434;
+    font-family: Poppins;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    /* 100% */
+    letter-spacing: 0.3px;
+}
+
+.iconSubH {
+    /* padding-top: 2vw; */
+    padding-left: 1.9vw;
+    color: #333539;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    letter-spacing: 0.3px;
+}
+
+@media (max-width:1300px) {
+    .Box{
+        height: 27vw;
+    }
+    .Box2{
+        height: 27vw;
+    }
+}
+
+@media (max-width:1080px) {
+    .AllCardsContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Box {
+        padding: 2vw;
+        padding-left: 7vw;
+        width: 40vw;
+        height: 35vw;
+    }
+
+    .Box2 {
+        margin-left: 2vw;
+        padding: 2vw;
+        padding-left: 7vw;
+        width: 40vw;
+        height: 35vw;
+
+    }
+
+    .allCards2 {
+        margin-top: 4vw;
+        margin-left: 1.8vw;
+    }
+
+    .HomeIcon {
+        padding-top: -4vw;
+    }
+
+    .iconHeading {
+        font-size: 2.5vw;
+    }
+
+    .iconSubH {
+        margin-top: 40px;
+        font-size: 1.5vw;
+        line-height: 25px;
+        letter-spacing: 0.6px;
+    }
+
+    .HomeIcon {
+        margin-left: 10vw;
+    }
+}
+
+
+@media (max-width:784px) {
+    .Box {
+        height: 40vw;
+    }
+
+    .Box2 {
+        height: 40vw;
+    }
+
+    .iconSubH {
+        margin-top: 40px;
+        font-size: 2vw;
+        line-height: 25px;
+        letter-spacing: 0.6px;
+    }
+}
+
+
+@media (max-width:630px) {
+    .mainHeading{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .AllCardsContainer{
+        margin-left: 10vw;
+    }
+    .AllCards,
+    .allCards2 {
+        flex-direction: column;
+    }
+    .Box{
+        margin-top: 2vw;
+        width: 60vw;
+        height: 50vw;
+    }
+    .Box2{
+            margin-left: 0vw;
+            margin-top: 2vw;
+            width: 60vw;
+            height: 50vw;
+    }
+
+
+    .HomeIcon {
+        padding-top: 4vw;
+        /* size: 10vw; */
+    }
+
+
+    .iconHeading {
+        margin-top: 3.5vw;
+        margin-left: 3vw;
+        font-size: 3.9vw;
+    }
+
+    .iconSubH {
+        margin-top: 3.5vw;
+        margin-left: 3vw;
+        font-size: 2.4vw;
+        line-height: 20px;
+        letter-spacing: 1px;
+        /* letter-spacing: 0.1vw; */
+    }
+    .iconSize{
+        font-size: 10vw;
+    }
+
+    .HomeIcon {
+        margin-left: 15vw;
+    }
+    .alwaysP{
+        margin-left: 8vw;
+        margin-bottom: 10vw;
+        width: 60vw;
+        font-size: 5.5vw;
+        line-height: 8vw;
+        letter-spacing: 0.3vw;
+    }
+    .ourS{
+        padding-left: 18vw;
+        padding-bottom: 2vw;
+    }
+
+    .ourCSMainCont{
+        width: 100%;
+        /* margin-left: ; */
+    }
+    
+}
+
+@media (max-width:428px) {
+    .mainContainer{
+        /* padding: 0; */
+        margin: 0px;
+    }
+    .alwaysP{
+        margin-left: 0vw;
+        margin-bottom: 10vw;
+        width: 80vw;
+        font-size: 5.5vw;
+        line-height: 8vw;
+        letter-spacing: 0.3vw;
+    }
+
+    .ourS{
+        padding-left: 0vw;
+        padding-bottom: 2vw;
+    }
+    .AllCardsContainer{
+        margin-left: 0vw;
+    }
+    .Box{
+        width: 80vw;
+        height: 70vw;
+        margin-top: 2vw;
+
+    }
+    .Box2{
+        margin-top: 4vw;
+        width: 80vw;
+        height: 70vw;
+    }    
+    .iconSubH{
+        font-size: 4vw;
+    }
+}

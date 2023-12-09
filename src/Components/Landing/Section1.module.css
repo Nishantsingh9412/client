@@ -1,0 +1,127 @@
+* {
+    /* background-color: teal;  */
+
+}
+
+/* --------------------  LeftSection ------------------------- */
+.img1 {
+    width: 33vw;
+    height: 35vw;
+    flex-shrink: 0;
+    border: 10%;
+    position: relative;
+    border-radius: 2vw;
+    /* border: 10px solid white; */
+    z-index: 1;
+}
+
+.img2 {
+    position: absolute;
+    top: 2vw;
+    left: -4vw;
+    width: 14.5vw;
+    height: 18vw;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 10px solid white;
+    border-radius: 2vw;
+    z-index: 2;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
+.img3 {
+    position: absolute;
+    top: 15vw;
+    left: 26vw;
+    width: 13vw;
+    height: 17.5vw;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border-radius: 2vw;
+    border: 10px solid white;
+    z-index: 2;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
+/* ----------------------------------- RightSection --------------------------------- */
+
+.rightSection {
+    margin-left: 3vw;
+}
+
+
+.MainHeading {
+    color: #282A2E;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    /* 127.778% */
+    letter-spacing: 0.3px;
+}
+
+.commitments {
+    padding-left: 0vw;
+}
+
+.pointsSubH {
+    margin-left: 2vw;
+    color: #2F2F2F;
+    font-family: Poppins;
+    opacity: 0.7;
+    font-size: 15px;
+    /* font-size: 1vw; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+    letter-spacing: 0.5px;
+}
+
+@media (max-width:992px) {
+    
+    .AllImages {
+        margin-left: 15vw;
+    }
+    .img1{
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .img2 {
+        /* width: 70vw; */
+        top: 4vw;
+        left: 4vw;
+        /* right: ; */
+        width:30vw;
+        height:40vw;
+
+    }
+
+    .img3 {
+        top: 34vw;
+        /* right: 40vw; */
+        left: 56vw;
+        width:30vw;
+        height:40vw;
+    }
+
+    .rightSection {
+        padding-top: 150px;
+    }
+}
+
+@media (max-width: 578px) {
+    .mainOfAll {
+        /* Hide horizontal scrollbar for Chrome, Safari and Opera */
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Hide horizontal scrollbar for IE, Edge and Firefox */
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+        overflow-x: hidden; /* General rule */
+    }
+}

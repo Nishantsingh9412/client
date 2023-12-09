@@ -1,0 +1,219 @@
+/* *{
+  background-color: #F4F6FB;
+} */
+
+
+.rightContainer {
+  position: relative;
+  background-color: #80C1EF;
+  width: 80vw;
+  height: 42.9vw;
+  flex-shrink: 0;
+  border-radius: 0px 0px 0px 20vw;
+  overflow: hidden;
+  z-index: 1;
+}
+
+
+.shieldContainer {
+  margin-top: 8vw;
+  margin-left: 1vw;
+  width: 114px;
+  height: 114px;
+  background: white;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 30px
+}
+
+.GearContainer {
+  margin-left: 32vw;
+  margin-bottom: 4vw;
+  width: 200px;
+  height: 100px;
+  /* height: 2vw; */
+  background-color: white;
+  border-radius: 2vw;
+}
+
+.GearContainer2 {
+  display: flex;
+  /* width: 40vw; */
+}
+
+
+
+/* .GearText {
+
+} */
+
+
+.imgStyleHeadSection {
+  position: absolute;
+  top: -3vw;
+  left: 9vw;
+  max-width: 30vw;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.Qualified {
+  /* text-overflow: none; */
+  /* text-wrap:balance; */
+  font-weight: 500;
+  margin-top: 0.5vw;
+  font-size: 2vw;
+}
+
+.QualifiedWT {
+  margin-left: 1vw;
+  font-size: 1.1vw;
+}
+
+/* --------------------------- LeftSection  ----------------------------*/
+
+
+.MainleftSection {
+  position: relative;
+  /* background-color:rgba(205, 194, 194, 0.747); */
+  border-radius: 10vw;
+}
+
+.yourTrusted {
+  color: #118AC5;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  /* 175% */
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.BestCS {
+  position: absolute;
+  left: 50vw;
+  top: 30vw;
+  width: 18vw;
+  /* height: 2vw; */
+  background-color: white;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 2vw;
+  z-index: 2;
+}
+
+
+.Setting {
+  position: absolute;
+  left: 30vw;
+  top: 10vw;
+  width: 18vw;
+  padding: 14px;
+  height: 114px;
+  background-color: white;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 2vw;
+  z-index: 2;
+}
+
+.leftSection {
+  margin-left: 5vw;
+  margin-top: 14vw;
+}
+
+.mainHeading {
+
+  color: #121212;
+  font-family: Poppins;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 65px;
+  /* 118.182% */
+  letter-spacing: -2px;
+}
+
+.BookNowBtn {
+  font-weight: 600;
+  margin-top: 2vw;
+  background-color: #FFBA18;
+  border-radius: 20vw;
+  width: 15vw;
+  height: 4vw;
+}
+
+.subContent {
+  font-weight: lighter;
+}
+
+
+/*  ---------------------- ------------------ Responsiveness --------------------------- */
+@media (max-width: 1024px) {
+  .rightContainer {
+    height: 70vw;
+  }
+
+  .BestCS {
+    left: 50vw;
+    top: 50vw;
+    width: 18vw;
+
+  }
+
+  .shieldContainer {
+    margin-top: 20vw;
+  }
+
+
+  .imgStyleHeadSection {
+    top: 25vw;
+    left: 20vw;
+  }
+
+  .Setting {
+    left: 22vw;
+  }
+
+  .Qualified {
+    margin-top: 0.5vw;
+    font-size: 2vw;
+  }
+
+  .QualifiedWT {
+    margin-top: 0.5vw;
+    margin-left: 1vw;
+    font-size: 1.7vw;
+  }
+
+  .BookNowBtn{
+  /* margin-top: 2vw; */
+  margin-top: 6vw;
+  width: 35vw;
+  height: 6vw;
+  }
+}
+
+
+
+
+
+@media (max-width: 800px) {
+  .rightContainer {
+    display: none;
+  }
+
+  .BestCS {
+    display: none;
+  }
+
+  .BookNowBtn{          /* THis Line is not working  */
+    /* margin-left: 20vw; */
+    height: 8vw;
+  }
+}
+
+@media (max-width:500px) {
+  .BookNowBtn{
+    height: 14vw;
+  }
+}
